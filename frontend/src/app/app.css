@@ -1,0 +1,18 @@
+:host { display: block; font-family: "Inter", -apple-system, "Segoe UI", Roboto, sans-serif; color: #1f2430; }
+main { max-width: 640px; margin: 2rem auto; padding: 0 1rem; }
+h1 { font-size: 1.75rem; margin: 0 0 1rem; }
+button { font: inherit; padding: 0.4rem 0.8rem; border: 0; border-radius: 6px; background: #3b5bdb; color: #fff; cursor: pointer; }
+button:disabled { opacity: 0.6; cursor: default; }
+button.ghost { background: #e9ecf5; color: #1f2430; }
+button.danger { background: #e03131; }
+input { font: inherit; padding: 0.4rem 0.6rem; border: 1px solid #c5cad6; border-radius: 6px; flex: 1; min-width: 0; }
+.crumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem; margin-bottom: 1rem; }
+.crumbs button { background: none; color: #3b5bdb; padding: 0.2rem 0.4rem; }
+.crumbs button:disabled { color: #1f2430; font-weight: 600; opacity: 1; }
+.create { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+.list { list-style: none; margin: 0; padding: 0; }
+.list li { display: flex; gap: 0.5rem; align-items: center; padding: 0.5rem; border-bottom: 1px solid #e9ecf5; }
+.list .name { flex: 1; text-align: left; background: none; color: inherit; }
+.list .name:hover { background: #f1f3fa; }
+.error { color: #e03131; background: #fff0f0; padding: 0.5rem 0.75rem; border-radius: 6px; }
+.muted { color: #6b7385; }

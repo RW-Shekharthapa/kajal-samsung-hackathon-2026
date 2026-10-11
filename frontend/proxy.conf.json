@@ -1,0 +1,7 @@
+{
+  "/proxy/4200/api": {
+    "target": "http://localhost:8080",
+    "secure": false,
+    "pathRewrite": { "^/proxy/4200/api": "/api" }
+  }
+}
